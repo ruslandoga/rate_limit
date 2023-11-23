@@ -35,5 +35,6 @@ Benchee.run(
     end
   },
   profile_after: profile?,
-  parallel: parallel
+  parallel: parallel,
+  print: [fast_warning: false]
 )
