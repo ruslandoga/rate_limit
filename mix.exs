@@ -24,7 +24,8 @@ defmodule RateLimit.MixProject do
       {:benchee, "~> 1.2", only: :bench},
       {:ex_rated, "~> 2.1", only: :bench},
       {:plug_attack, "~> 0.4.3", only: :bench},
-      {:hammer, "~> 6.1", only: :bench}
+      {:hammer, "~> 6.1", only: :bench},
+      {:rate_limiter, "~> 0.4.0", only: :bench}
     ]
   end
 end
