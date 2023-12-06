@@ -1,9 +1,9 @@
-defmodule RateLimit.Counters do
+defmodule RateLimit.OrderedSetCounters do
   def new(name) do
     ^name =
       :ets.new(name, [
         :named_table,
-        :set,
+        :ordered_set,
         :public,
         {:read_concurrency, true},
         {:write_concurrency, :auto}
