@@ -1,3 +1,7 @@
+Better version: https://github.com/PragTob/rate_limit
+
+---
+
 ```console
 $ MIX_ENV=bench mix run bench/basic.exs
 Operating System: macOS
