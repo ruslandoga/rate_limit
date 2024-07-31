@@ -1,4 +1,4 @@
-Better version: https://github.com/PragTob/rate_limit
+Better version: https://github.com/PragTob/rate_limit (https://github.com/ruslandoga/rate_limit/issues/2)
 
 ---
 
